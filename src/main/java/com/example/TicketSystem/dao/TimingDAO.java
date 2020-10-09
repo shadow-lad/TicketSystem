@@ -9,6 +9,5 @@ public interface TimingDAO extends JpaRepository<Timings, Long> {
 
     Optional<Timings> findByEndTimeBetween(long small, long big);
     Optional<Timings> findByStartTimeBetween(long small, long big);
-    Optional<Timings>
 
 }
